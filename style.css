@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.fotoMia{
+    width: 400px;
+    opacity: .5;
+    margin: 20px;
+}
+
+.fotoMia:hover{
+    opacity: 1;
+}
+
+.fotoCode{
+    width: 500px;
+    position: relative;
+    left: 38%;
+}
+
+body{
+    background-color:rgb(56, 56, 56);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.titulo{
+    margin: 1rem;
+    text-align: center;
+    font-size: 3rem;
+    color: rgb(233, 233, 233);
+}
+
+.navPrincipal{
+    background-color: rgb(77, 21, 21);
+    text-align: center;
+    height: 50px;
+}
+
+.itemNav{
+    color: rgb(0, 0, 0);
+    padding: 2rem;
+    font-size: 1.5rem;
+    position: relative;
+    top: 7px;
+    text-decoration: none;
+}
+
+.itemNav:hover{
+    color: rgb(255, 255, 255);
+}
+
+.texto{
+    color: rgb(189, 188, 188);
+    padding: 2rem;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.links{
+    color: aliceblue;
+    text-align: center;
+    text-decoration: none;
+}
+
+.links:hover{
+    color:rgb(182, 62, 62);
+}
+
+.listaLinks{
+    text-align: center;
+}
+
+.video{
+    position: relative;
+    left: 40rem;
+    margin: 4rem;
+}
+
+.cursiva{
+    font-style: italic;
+}
+
+.lista{
+    color: antiquewhite;
+    margin: 2rem;
+    list-style-type:circle;
+    position: relative;
+    left: 30rem;
+    line-height: 2rem;
+}
+
+.inicio{
+    font-weight:bold;
+}
