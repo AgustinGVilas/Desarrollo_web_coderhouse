@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="./media/favicon-32x32.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <title>Sobre mí</title>
 </head>
 <body>
@@ -15,16 +16,17 @@
         <a href="tools.html" class="itemNav">Herramientas y programas</a>
         <a href="contacto.html" class="itemNav">RR SS y contacto</a>
     </nav>
+
     <header>
         <h1 class="titulo">
             Sobre mí
         </h1>
     </header>
 
-    <main>
-        <section>
+    <main class="mainAbout">
+        <section class="section1">
             <div>
-                <p class="texto">
+                <p class="texto animate__animated animate__backInLeft">
                     Me llamo Agustín González Vilas. Tengo 27 años.
                     <!--Contar sobre mi-->
                 </p>
@@ -35,14 +37,16 @@
                 <img src="./media/IMG_20211009_150057_1.jpg" alt="Foto mia 3" class="fotoMia">
                 <img src="./media/WhatsApp Image 2022-08-16 at 4.21.26 PM.jpeg" alt="Foto mia 4" class="fotoMia">
             </div>
-            <div>
-                <p class="texto">Amante de viajar</p>
-                <video src="./media/GOPR9979_Trim.mp4" width="500px" controls class="video"></video>
-            </div>
+        </section>
+        <section class="section2 animate__animated animate__backInUp">             
+            <p class="texto">Amante de viajar</p>
+            <video src="./media/GOPR9979_Trim.mp4" width="500px" controls></video>
         </section>
     </main>
+
     <footer>
         <a href="#top" class="texto">Ir arriba</a>
     </footer>
+
 </body>
 </html>
