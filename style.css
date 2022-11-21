@@ -17,25 +17,25 @@ body{
     background-image: linear-gradient(rgb(128, 25, 25), rgb(63, 25, 25));
     height: 100%;
     display: flex;
-    justify-content: space-evenly;
-    padding: 1rem;
 }
 
 .itemNav{
     color: rgb(0, 0, 0);
     font-size: 1.5rem;
+    padding: 1rem;
     text-decoration: none;
+}
+
+.itemNav:first-child{
+    color: rgb(0, 0, 0);
+    font-size: 1.5rem;
+    text-decoration: none;
+    margin-right: auto;
 }
 
 .itemNav:hover{
     color: rgb(255, 255, 255);
-}
-
-@media screen and (max-width: 768px){
-    .i2{
-        display: none;
-    }
-}
+}   
 
 .titulo{
     margin: 1rem;
@@ -159,5 +159,32 @@ body{
 }
 
 
+/*    MEDIA QUERIES    */
+
+@media screen and (max-width: 768px){
+    .navPrincipal{
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 600px){
+    #videoTools{
+        width: 320px;
+    }
+
+    .fotoIndex{
+        width: 320px;
+    }
+
+    #videoAbout{
+        width: 320px;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .fotoMia{
+        width: 320px;
+    }
+}
 
 
