@@ -1,0 +1,27 @@
+/*    MEDIA QUERIES    */
+
+@media screen and (max-width: 768px){
+    .navPrincipal{
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 600px){
+    #videoTools{
+        width: 320px;
+    }
+
+    .fotoIndex{
+        width: 320px;
+    }
+
+    #videoAbout{
+        width: 320px;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .fotoMia{
+        width: 320px;
+    }
+}
